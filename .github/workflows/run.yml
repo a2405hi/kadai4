@@ -1,0 +1,9 @@
+
+name: kadai4-trial
+on: [push]
+jobs:
+ check-bats-version:
+   runs-on: ubuntu-latest
+   steps:
+     - run: echo "test"
+
